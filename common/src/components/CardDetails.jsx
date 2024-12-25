@@ -1,0 +1,17 @@
+import React from 'react'; 
+import './CardDetails.css';
+
+
+const CardDetails = (props) =>{
+    const {image, name, cuisine, rating} =props.data 
+    return(
+        <div className="card-details">
+        <img src={image} alt={name} />
+        <div className="price">Items at 250 Rs.</div>
+        <div className="item-title">{name}</div>
+        <div>Cuisine: {cuisine}</div>
+        <div>Ratings: {rating}</div>
+      </div>
+    )
+}
+export default CardDetails;

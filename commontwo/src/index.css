@@ -1,0 +1,25 @@
+.header {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 8px 6px -6px #ccccccab;
+}
+
+.footer {
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #ccccccb4;
+  box-shadow: 0px -5px 5px #ccc;
+  width: 99%;
+}
+
+.short-list-container, .detail-list-container, .todo-list-container {
+  padding: 20px;
+}
+.headername{
+  color: cadetblue; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 35px;
+}
